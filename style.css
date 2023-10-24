@@ -190,12 +190,12 @@ h1{
     border: none;
     font-size: 1.2rem;
     color: white;
-    background-color: rgb(139, 231, 111);
+    background-color: rgb(74, 120, 60);
     transition: 0.4s all;
 }
 .btn:hover{
     font-size: 1.3rem;
-    background-color: greenyellow;
+    background-color: rgb(73, 194, 66);
     font-weight: bold;
     cursor: pointer;
 }
@@ -403,6 +403,7 @@ h1{
     width: 100%;
     height: 25rem;
     padding: 3rem 5rem;
+    margin-bottom: 8rem;
     background-color: #00B8D0;
     
     display: flex;
@@ -443,7 +444,7 @@ form{
 
 .footer{
     width: 80%;
-    padding: 10rem 0 4rem 0;
+    padding: 4rem 0;
     display: flex;
     justify-content: space-between;
 }
