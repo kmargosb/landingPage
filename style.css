@@ -174,11 +174,6 @@ h1{
     display: flex;
     flex-direction: column;
 }
-.about-right h2{
-    font-size: 3rem;
-    color: #144c53;
-    padding-bottom: 1rem;
-}
 .about-right p{
     color: #252525;
     font-size: 1.2rem;
@@ -216,7 +211,6 @@ h1{
     padding-left: 2rem;
     font-size: 4rem;
 }
-
 .cast-content{
     padding: 3rem 0;
     display: flex;
@@ -278,16 +272,17 @@ h1{
     justify-content: space-between;
     align-items: center;
 }
-
 .side-content{
     width: 33%;
     height: 100%;
-    border: 3px solid white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .center-content{
     width: 33%;
     height: 100%;
-    border: 2px solid black;
 
     display: flex;
     flex-direction: column;
@@ -295,12 +290,72 @@ h1{
     justify-content: center;
     gap: 3rem;
 }
+.center-content h2{
+    text-align: center;
+    font-size: 2rem;
+    color: #00B8D0;
+}
+.center-content p{
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+}
+.center-content a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    background-color: rgb(210, 50, 50);
+    transition: 0.2s all;
+}
+.center-content a:hover{
+    background-color: red;
+    width: 6.2rem;
+    height: 2.2rem;
+}
 .circle{
     background-color: white;
     width: 14rem;
     height: 14rem;
     border-radius: 100%;
-    position: relative;
+}
+
+
+/*----DIRECTORS----*/
+.director{
+    width: 80%;
+    margin-top: 5rem;
+    padding: 5rem 0;
+    border-top: 3px dotted #00b8d038;
+    display: flex;
+}
+.director-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2rem;
+}
+.img-director{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 100%;
+}
+.img-james{
+    background-image: url(./assets/james-cameron.jpeg);
+    background-size: contain;
+}
+.img-will{
+    background-image: url(./assets/william-wisher.jpg);
+    background-position: top center;
+    background-size: cover;
+}
+
+.sameh2{
+    font-size: 3rem;
+    color: #144c53;
+    padding-bottom: 1rem;
 }
 
 
