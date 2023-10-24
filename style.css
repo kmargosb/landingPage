@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*----Header----*/
+
+.header{
+    width: 100%;
+    height: 5rem;
+    color: white;
+    background-color: #00B8D0;
+    padding: 0 7rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    color: white;
+    font-size: 1.5rem;
+}
+.navBar{
+    padding: 5px 0;
+    font-size: 1.2rem;
+
+    display: flex;
+    gap: 10px
+}
+.navBar a{
+    padding: 0 10px;
+}
+
+/*----Movie----*/
+
+.movie{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 5rem 5rem;
+}
+.descriptionMovie{
+    width: 50%;
+    padding: 5rem 0;
+}
+.descriptionMovie :nth-child(1){
+    color: red;
+    font-size: 2rem;
+    padding: 2rem 0;
+}
+.descriptionMovie :nth-child(3){
+    font-size: 1.8rem;
+    padding: 1.5rem 0;
+}
+h1{
+    font-size: 5rem;
+}
+.img-content{
+    width: 35rem;
+    height: 35rem;
+    border: 15px solid #00B8D0;
+    border-radius: 100%;
+    background-image: url(./assets/T2-poster.jpg);
+    background-size: cover;
+    background-position: -140px;    
+}
+
+/*----PREMIERE----*/
+
+.premiere{
+    background-color: rgb(244, 235, 228);
+    width: 80%;
+    height: 15rem;
+    border-radius: 2rem;
+    display: flex; 
+    justify-content: space-between;  
+    align-items: center;
+}
+.pre-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    height: 70%;
+    padding: 0 3rem;
+    /* border: 1px solid black; */
+}
+.prem2, .prem3{
+    border-left: 2px dotted #00B8D0;
+}
+.pre-content :nth-child(2){
+    color: red;
+    font-weight: 900;
+    font-size: 1.4rem;
+    padding-bottom: 1.5rem; 
+}
+.pre-content span{
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: #144c53;
+}
+.pre-content , .prem4 :last-child{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.prem4{
+    width: 35%;
+    height: 100%;
+    padding: 0 3rem;
+    background-color: #00B8D0;
+    border-radius: 0 2rem 2rem 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+.prem4 :first-child{
+    color: white;
+    font-size: 1.5rem;
+}
+.prem4 span{
+    padding: 1rem 0;
+    color: #144c53;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+/*----ABOUT----*/
+
+.aboutMovie{
+    width: 80%;
+    padding: 5rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.datos{
+    width: 25%;
+    height: 26rem;
+    padding: 2rem;
+    background-color: #00B8D0;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.datos span{
+    color: #144c53;
+    font-size: 4rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+.datos h4{
+    font-size: 1.7rem;
+    color: white;
+    padding: 1rem 0
+}
+.datos p{
+    font-weight: bold;
+    color: #144c53;
+}
+
+.about-right{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+.about-right h2{
+    font-size: 3rem;
+    color: #144c53;
+    padding-bottom: 1rem;
+}
+.about-right p{
+    color: #252525;
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+}
+.about-right button{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgb(139, 231, 111);
+    transition: 0.4s all;
+}
+.about-right button:hover{
+    font-size: 1.3rem;
+    background-color: greenyellow;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*----CAST----*/
+
+
+.cast{
+    border-top: 3px dotted #00b8d038;
+    padding: 3rem 0;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.cast h2{
+    color: #144c53;
+    padding-left: 2rem;
+    font-size: 4rem;
+}
+
+.cast-content{
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.actors{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+.img-actor{
+    width: 15rem;
+    height: 15rem;
+    border: 0.5rem solid #00B8D0;
+    border-radius: 100%;   
+}
+.actor1{
+    background: url(./assets/Sarah-Connor.jpg);
+    background-position: top center;
+    background-size: 100%;
+}
+.actor2{
+    background-image: url(./assets/arnoldT-800.png);
+    background-position: top center;
+    background-size: 150%;
+}
+.actor3{
+    background: url(./assets/jhonConnor.png);
+    background-position: top center;
+    background-size: 100%;
+}
+.actor4{
+    background: url(./assets/robert-patrick-terminator.png);
+    background-position: top center;
+    background-size: 180%;
+}
+.names{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.names :first-child{
+    font-weight: bold;
+}
+.names p{
+    font-size: 1.2rem;
+}
+
+/*----SINGUP----*/
+
+.singup{
+    width: 100%;
+    height: 25rem;
+    background-color: #2a0ec6;
+    padding: 3rem 5rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.side-content{
+    width: 33%;
+    height: 100%;
+    border: 3px solid white;
+}
+.center-content{
+    width: 33%;
+    height: 100%;
+    border: 2px solid black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.circle{
+    background-color: white;
+    width: 14rem;
+    height: 14rem;
+    border-radius: 100%;
+    position: relative;
+}
+
+
+
+
