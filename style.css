@@ -13,6 +13,7 @@ a{
     align-items: center;
 }
 
+
 /*----Header----*/
 
 .header{
@@ -40,6 +41,7 @@ a{
 .navBar a{
     padding: 0 10px;
 }
+
 
 /*----Movie----*/
 
@@ -74,6 +76,7 @@ h1{
     background-size: cover;
     background-position: -140px;    
 }
+
 
 /*----PREMIERE----*/
 
@@ -134,6 +137,7 @@ h1{
     font-size: 5rem;
     font-weight: bold;
 }
+
 
 /*----ABOUT----*/
 
@@ -196,8 +200,8 @@ h1{
     cursor: pointer;
 }
 
-/*----CAST----*/
 
+/*----CAST----*/
 
 .cast{
     border-top: 3px dotted #00b8d038;
@@ -259,6 +263,7 @@ h1{
 .names p{
     font-size: 1.2rem;
 }
+
 
 /*----SINGUP----*/
 
@@ -324,11 +329,13 @@ h1{
 
 
 /*----DIRECTORS----*/
+
 .director{
     width: 80%;
     margin-top: 5rem;
     padding: 5rem 0;
     border-top: 3px dotted #00b8d038;
+    border-bottom: 3px dotted #00b8d038 ;
     display: flex;
 }
 .director-content{
@@ -351,6 +358,46 @@ h1{
     background-position: top center;
     background-size: cover;
 }
+.director-content h3{
+    padding: 1.2rem 0;
+    font-size: 1.5rem;
+    color: #00B8D0;
+}
+.director-content p{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+/*----LOCATION----*/
+
+.location{
+    width: 80%;
+    height: 30rem;
+    padding: 5rem 0;
+    display: flex;    
+}
+.img-cine{
+    width: 60%;
+    height: 100%;
+    background-image: url(./assets/salacine.jpg);
+    background-size: cover;
+}
+.location-content{
+    width: 40%;
+    padding: 0 1rem;
+}
+.location-content p{
+    padding: 2rem 0;
+    font-size: 1.3rem;
+}
+.location-content span{
+    font-size: 2rem;
+    color: red;
+}
+
+
 
 .sameh2{
     font-size: 3rem;
