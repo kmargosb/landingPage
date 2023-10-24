@@ -181,9 +181,9 @@ h1{
 .about-right p{
     color: #252525;
     font-size: 1.2rem;
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
 }
-.about-right button{
+.btn{
     width: 10rem;
     height: 3rem;
     border-radius: 0.5rem;
@@ -193,7 +193,7 @@ h1{
     background-color: rgb(139, 231, 111);
     transition: 0.4s all;
 }
-.about-right button:hover{
+.btn:hover{
     font-size: 1.3rem;
     background-color: greenyellow;
     font-weight: bold;
@@ -309,16 +309,16 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 6rem;
-    height: 2rem;
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.2rem;
     border-radius: 0.5rem;
     background-color: rgb(210, 50, 50);
-    transition: 0.2s all;
+    transition: 0.3s all;
 }
 .center-content a:hover{
     background-color: red;
-    width: 6.2rem;
-    height: 2.2rem;
+    font-size: 1.4rem;
 }
 .circle{
     background-color: white;
@@ -393,9 +393,73 @@ h1{
     font-size: 1.3rem;
 }
 .location-content span{
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: red;
 }
+
+/*----REGISTRATION----*/
+
+.register{
+    width: 100%;
+    height: 25rem;
+    padding: 3rem 5rem;
+    background-color: #00B8D0;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.register-content div{
+    font-size: 1.5rem;
+    padding-top: 3rem ;
+    color: white;
+}
+.register-content2{
+    width: 60%;
+}
+
+form{
+    width: 100%;
+    height: 27rem;
+    background-color:rgb(244, 235, 228);
+    border-radius: 0.8rem;
+    padding: 2rem 3rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.imput{
+    width: 100%;
+    height: 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 1.5rem;
+    border: none;
+    border-radius: 0.4rem;
+}
+
+/*----FOOTER----*/
+
+.footer{
+    width: 80%;
+    padding: 10rem 0 4rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.redes{
+    display: flex;
+    gap: 2rem;
+}
+.logo-redes{
+    width: 2rem;
+    height: 2rem;
+    background-color: black;
+}
+
+
+
+
 
 
 
