@@ -27,9 +27,14 @@ a{
     justify-content: space-between;
     align-items: center;
 }
-.logo{
-    color: white;
+.logo a{
     font-size: 1.5rem;
+    transition: 0.4s all;
+    text-align: center;
+}
+.logo a:hover{
+    font-size: 1.8rem;
+    color: rgb(249, 249, 155);
 }
 .navBar{
     padding: 5px 0;
